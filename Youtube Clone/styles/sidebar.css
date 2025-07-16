@@ -1,0 +1,83 @@
+@media (max-width: 1200px) {
+.sidebar {
+    transition: all 0.3s ease;
+    position: fixed;
+    top: 70px;
+    left: 0;
+    bottom: 0px;
+    width: 83px;    
+}
+
+.sidebar-link {
+    transition: all 0.3s ease;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.sidebar-link:hover {
+    background-color: rgb(235, 233, 233);
+}
+
+/* special type of selector 
+it will slect all images inside the sidebar-link class */
+.sidebar-link img {
+    transition: all 0.3s ease;
+    height: 30px;
+    padding-bottom: 5px;
+}
+
+.sidebar-link div {
+    transition: all 0.3s ease;
+    font-size: 12px;
+}
+}
+
+
+
+@media (min-width: 1201px) {
+.sidebar {
+    transition: all 0.3s ease;
+    position: fixed;
+    top: 70px;
+    left: 0;
+    bottom: 0px;
+    width: 83px;    
+}
+
+.sidebar-link {
+    transition: all 0.3s ease;
+    height: 50px;
+    width: 280px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.sidebar-link:hover {
+    background-color: rgb(235, 233, 233);
+}
+
+/* special type of selector 
+it will slect all images inside the sidebar-link class */
+.sidebar-link img {
+    transition: all 0.3s ease;
+    height: 30px;
+    padding-bottom: 5px;
+}
+
+.sidebar-link div {
+    transition: all 0.3s ease;
+    white-space: nowrap;
+    font-size: 17px;
+    padding-left: 20px;
+}
+}
+
+
+
